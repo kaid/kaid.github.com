@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Kaid's Bluepattern - {{ page.title }}</title>
+    
+    <link rel="stylesheet" href="/stylesheets/base.css" type="text/css" media="screen" charset="utf-8"/>
+    <link rel='alternate' type='application/atom+xml' href='http://feeds2.feedburner.com/kaid' title="Post syndication"/>
+</head>
+
+<body id="{{ page.identity }}">
+    <div id="wrapper">
+        <div id="header">
+            <h1 id="site_title">Kaid's Bluepattern</h1>
+            <span id="slogan">no chance of escape</span>
+            <ul id="nav_menu">
+                <li><a href="/">/ home</a></li>
+                <li><a href="/archive.html">/ archive</a></li>
+                <li><a href="/about.html">/ about</a></li>
+            </ul>
+        </div>
+        {{ content }}
+        <div id="footer">
+            <span class="license">Copyright &copy; 2009 <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">Kaid's Bluepattern</span>. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/" title="Creative Commons Attribution-Noncommercial-Share Alike 2.5 China Mainland">Some right reserved</a>.</span>
+            <span class="powered_by">Powered by <a href="http://jekyllrb.com/" title="Jekyll">Jekyll</a>&<a href="http://github.com/" title="Github">Github</a></span>
+        </div>
+    </div>
+</body>
+</html>

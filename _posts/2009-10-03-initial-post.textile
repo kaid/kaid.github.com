@@ -1,0 +1,6 @@
+---
+layout: post
+title: Initial post
+---
+
+This is an *initial post*. I'm trying to set up my new personal place by jekyll on github. The post is my *firs beat* of this approach.
