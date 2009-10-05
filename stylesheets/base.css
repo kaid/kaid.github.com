@@ -195,30 +195,35 @@ a {
 
         /*== #wrapper#content#recent_posts ==*/
         #recent_posts {
-            padding: 0 2px 4px 2px;
+            padding: 6px 0 8px 0;
+            margin: 0 0 12px 0;
             list-style: none;
             font-style: normal;
             border-bottom: 4px solid #ddd;
+            background-color: #fafafa;
         }
 
             #recent_posts li {}
 
                 #recent_posts li a {
                     display: block;
-                    padding-bottom: 8px;
-                    font-size: 18px;
+                    padding: 6px 8px;
+                    font-size: 16px;
+                    color: #666;
                 }
 
                 #recent_posts a:hover {
-                    padding-bottom: 7px;
+                    padding: 5px 8px;
+                    border-top: 1px dashed #ddd;
                     border-bottom: 1px dashed #ddd;
+                    background-color: #fefee1;
                 }
 
                     #recent_posts li span {
                         position: absolute;
-                        right: 32px;
+                        right: 40px;
                         color: #888;
-                        font-size: 14px;
+                        font-size: 12px;
                         font-style: italic;
                     }
 
