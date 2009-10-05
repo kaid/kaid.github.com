@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Initial post
+topic: study
+time: 10:35 pm
+id: 1
 ---
 
 This is an *initial post*. I'm trying to set up my new personal place by jekyll on github. The post is my *firs beat* of this approach.
