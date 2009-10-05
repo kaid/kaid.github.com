@@ -1,0 +1,38 @@
+---
+layout: base
+identity: home
+---
+
+        <div id="content">
+            <div class="post">
+                <h2 class="post_title"><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h2>
+                <span class="post_date">{{ page.date | date_to_string }}, {{ page.time }}</span>
+                <div class="post_body">
+                    {{ page.content }}
+                </div>
+                <div class="post_meta">
+                    <span>Topic: <a href="/archive/topic/{{ page.topic }}/">{{ page.topic }}</a></span>
+                    <a class="comments" href="{{ page.url }}#disqus_thread">Responses &raquo;</a>
+                </div>
+            </div>
+
+            <div id="disqus_thread"></div>
+            <script type="text/javascript" src="http://disqus.com/forums/kaid/embed.js"></script>
+            <noscript><a href="http://kaid.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+            
+            <script type="text/javascript">
+            //<![CDATA[
+            (function() {
+            	var links = document.getElementsByTagName('a');
+            	var query = '?';
+            	for(var i = 0; i < links.length; i++) {
+            	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+            		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+            	}
+            	}
+            	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/kaid/get_num_replies.js' + query + '"></' + 'script>');
+            })();
+            //]]>
+            </script>
+        </div>

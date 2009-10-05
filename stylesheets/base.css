@@ -8,10 +8,6 @@ html, body {
     background-color: #fff;
 }
 
-body #home {}
-body #archive {}
-body #about {}
-
 h1, h2, h3 {
     margin: 0;
     padding: 0;
@@ -192,6 +188,10 @@ a {
                     position: absolute;
                     right: 40px;
                 }
+
+            #disqus_thread {
+                margin-top: 16px;
+            }
 
         /*== #wrapper#content#recent_posts ==*/
         #recent_posts {
