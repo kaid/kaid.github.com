@@ -163,6 +163,10 @@ a {
                     border: 1px solid #ffb070;
                     outline: 6px solid #fdeede;
                 }
+
+                .post_body strong, .post_body b {
+                    color: #000;
+                }
                 
 
             /*= #wrapper#content.post.postmeta =*/
