@@ -16,6 +16,20 @@ identity: post
                 </div>
             </div>
 
+            <div id="more">
+            {% if page.previous %}
+                <a href="{{ page.previous.url }}" title="Previous post">&#x2190; prev</a>
+            {% else %}
+                <span>&#x2190; prev</span>
+            {% endif %}
+
+            {% if page.next %}
+                <a href="{{ page.next.url }}" title="Next post">next &#x2192;</a>
+            {% else %}
+                <span>next &#x2192;</span>
+            {% endif %}
+            </div>
+
             <div id="disqus_thread"></div>
             <script type="text/javascript" src="http://disqus.com/forums/kaid/embed.js"></script>
             <noscript><a href="http://kaid.disqus.com/?url=ref">View the discussion thread.</a></noscript>

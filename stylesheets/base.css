@@ -89,7 +89,7 @@ a {
 
     /*==== #wrapper#content ====*/
     #content {
-        padding: 12px 32px;
+        padding: 12px 32px 0 32px;
         text-align: left;
         font-size: 14px;
         font-weight: lighter;
@@ -196,7 +196,7 @@ a {
         /*== #wrapper#content#recent_posts ==*/
         #recent_posts {
             padding: 6px 0 8px 0;
-            margin: 0 0 12px 0;
+            margin: 0;
             list-style: none;
             font-style: normal;
             border-bottom: 4px solid #ddd;
@@ -227,35 +227,42 @@ a {
                         font-style: italic;
                     }
 
+        /*== #wrapper#content#more ==*/
         #more {
-            position: relative;
-            left: 50%;
-            padding: 3px;
-            margin-left: -80px;
-            display: block;
-            width: 152px;
+            padding: auto;
+            padding-top: 12px;
+            padding-bottom: 12px;
             text-align: center;
             font-size: 16px;
-            color: #888;
-            background-color: #eee;
-            /* moz radius border */
-            -moz-border-radius: 6px;
-            /* webkit radius border */
-            -webkit-border-radius: 6px;
-            border: 1px solid #eee;
+            color: #aaa;
+            border-bottom: 1px solid #ddd;
         }
 
-        #more:hover {
-            color: #fff;
-            border: 1px solid #444;
-            background-color: #444;
-        }
+            #more a {
+                color: #888;
+            }
+
+            #more a, #more span {
+                padding: 1px 32px;
+                margin: 12px 32px;
+                background-color: #eee;
+                /* moz radius border */
+                -moz-border-radius: 6px;
+                /* webkit radius border */
+                -webkit-border-radius: 6px;
+                border: 1px solid #eee;
+            }
+
+            #more a:hover {
+                color: #fff;
+                border: 1px solid #444;
+                background-color: #444;
+            }
 
     /*==== #wrapper#footer ====*/
     #footer {
-        padding: 24px 0;
-        margin: 0 40px;
-        width: 480px;
+        padding: 16px 0;
+        margin: 0 32px;
         font-size: 12px;
         color: #888;
         border-top: 2px solid #ddd;
