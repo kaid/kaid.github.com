@@ -1,0 +1,11 @@
+---
+layout: post
+title: Day four
+topic: thoughts
+time: 11:59 pm
+id: 3
+---
+
+Add _post navigation_ to posts. Liquid showed a bit more *kindness* to me now.
+
+"Jekyll":http://jekyllrb.com/ is a new way of posting and publishing. With some magic such as *git* and *markup languages* it makes it convenient and comfortable to write. Take a look at the "listed sites in jekyll wiki":http://wiki.github.com/mojombo/jekyll/sites, and discover some awesomely designed sites yourself.
