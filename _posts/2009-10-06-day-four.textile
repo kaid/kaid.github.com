@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Day four
-topic: thoughts
+topic: study
 time: 11:59 pm
 id: 3
 ---
