@@ -1,0 +1,3 @@
+Sitemap: http://kaid.github.com/sitemap.xml
+User-agent: *
+Allow: /
