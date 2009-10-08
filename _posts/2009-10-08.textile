@@ -1,0 +1,11 @@
+---
+layout: post
+title: Day six
+topic: Study
+time: 11:45 pm
+id: 5
+---
+
+Installed moinmoin, and setup a local wiki to gather and sort datas I've collected. Emacs has extensions with wiki features, but while I'm quite a noob to elisp and Emacs platform, I have to take time for that.
+
+Easy_install is great at fetching and installing packages from pypi, but sucks at further package management.
