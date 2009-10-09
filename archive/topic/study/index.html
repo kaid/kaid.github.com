@@ -1,0 +1,12 @@
+---
+layout: base
+title: Archive - Topic - study
+identity: archive
+---
+ 
+        <div id="content">
+          <h2>Archive :: Topic :: study</h2>
+          <ul>{% for post in site.posts %}{% if post.topic == 'study' %}
+              <li><span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
+          </ul>
+        </div>
