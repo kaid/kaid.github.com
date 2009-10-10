@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Should there always be a new start?
-topic: study
-time: 10:35 pm
-id: 1
+topic: thoughts
+time: 11:45 pm
+id: 7
 ---
 
 *No, nope, nay!*
